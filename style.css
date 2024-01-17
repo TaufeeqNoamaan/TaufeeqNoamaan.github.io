@@ -1,0 +1,252 @@
+/* ---------General Styles------- */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600,800&display=swap");
+/* https://fonts.google.com/specimen/Poppins?query=poppins */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+  background-color:#ade8f4;
+  
+}
+
+p {
+  color: #555555;
+}
+/* ------------Transition------------ */
+a,
+.btn {
+  transition: all 0.3s ease;
+}
+/* ------Main Container Styling------- */
+.container {
+  width: 80%;
+  /* background-color: lightblue; */
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+}
+.icon {
+  cursor: pointer;
+  height: 2rem;
+}
+.title {
+  font-size: 3rem;
+  font-weight: 600;
+  text-align: center;
+  /* text-decoration: underline; */
+  text-underline-offset: 1rem;
+  color: #ff0a54;
+}
+/* NAVBAR */
+#nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 17vh;
+  padding-bottom:4rem ;
+}
+.nav-links {
+  display: flex;
+  list-style: none; /* remove the bullet points */
+  width: 80%;
+  gap: 2rem;
+  font-size: 1.5rem;
+}
+.nav-logo {
+  font-size: 2rem;
+  /* border: black 0.2rem solid; */
+  padding: 0.3rem;
+  font-weight: 600;
+  color: #ff0a54;
+}
+.nav-logo:hover{
+  color: #03045e;
+}
+nav a {
+  color: black;
+}
+nav a:hover {
+  color: #ff0a54;
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+}
+.nav-logo:hover {
+  cursor: default;
+}
+
+/* PROFILE SECTION */
+#profile {
+  /* border: black 0.1rem solid; */
+  border-radius: 2rem;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  padding: 9rem 0;
+}
+.profile-text-1 {
+  font-size: 1.5rem;
+}
+.profile-text-2 {
+  font-size: 2rem;
+}
+.profile-title {
+  font-size: 3.3rem;
+}
+
+.profile-btn-socials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.btn-container {
+  display: flex;
+  gap: 1rem;
+}
+.btn {
+  font-weight: 600;
+  transition: all 0.3s ease;
+  padding: 1rem;
+  width: 8rem;
+  border-radius: 2rem;
+}
+.btn-color-1 {
+  background-color: white;
+}
+.btn-color-2 {
+  background-color: black;
+  color: white;
+}
+.btn:hover {
+  background-color: lavender;
+  color: black;
+}
+.socials-container {
+  display: flex;
+  gap: 1rem;
+}
+/* About Me */
+#about {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  height: 100%;
+  padding: 5rem 0;
+}
+.about-containers {
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+}
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 30vh;
+  background: white;
+  border-radius: 2rem;
+  /* border: black 0.1rem solid; */
+  text-align: center;
+}
+
+.about-text {
+  font-size: x-large;
+  color: black;
+}
+
+/* Skills */
+#skills {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  height: 100%;
+}
+.skills-containers {
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+}
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  /* border: black 0.1rem solid; */
+  border-radius: 2rem;
+  width: 30%;
+  padding: 2rem 5rem;
+  justify-content: space-around;
+  background-color: white;
+  gap: 1rem;
+}
+.skills-sub-title {
+  margin-bottom: 1rem;
+  color: rgb(93, 93, 93);
+}
+.box {
+  display: flex;
+  gap: 0.3rem;
+}
+/* Projects */
+#projects {
+  height: 100%;
+  padding: 5rem 0;
+  gap: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+#projects .skills-containers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+/* Contact */
+#contact{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding: 5rem 0;
+  
+}
+.contact-containers{
+  display: flex;
+  flex-direction: row;
+  border: #545454 0.1rem solid;
+  border-radius: 2rem;
+  justify-content: space-around;
+  align-items: center;
+  width:fit-content;
+  padding: 0.5rem 2rem;
+  height: 5rem;
+  gap: 1rem;
+}
+.contact-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+.contact-container a{
+  color: black;
+  font-size: 1.2rem;
+}
+
+/* Footer */
+#footer{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding-bottom: 2rem;
+}

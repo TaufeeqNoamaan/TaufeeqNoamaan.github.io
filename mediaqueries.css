@@ -1,0 +1,68 @@
+@media screen and (max-width:850px){
+    .container{
+        width:100%;
+    }
+    #nav-bar{
+        display:flex;
+        flex-direction:column;
+        /* Screen size lower than 700px, flex set to col */
+        padding-bottom:3rem;
+        padding-top:1rem;
+    }
+    #nav-bar a{
+        font-size:1.2rem;
+    }
+    #profile{
+        flex-direction:column;
+        padding:3rem 1rem;
+        width:80%;
+        gap:2rem;
+        margin:0 auto;
+    }
+    .about-containers{
+        flex-direction:column;
+        align-items:center;
+        gap:2rem;
+    }
+    .about-text{
+        width:70%;
+        text-align:justify;
+        margin:0 auto;
+    }
+    .skills-containers{
+        flex-direction:column;
+        align-items:center;
+        gap:1rem;
+    }
+    #projects .skills-containers {
+        gap: 1rem;
+      }
+    .skills-container{
+        padding: 2rem 3rem;
+        width: 60%;
+    }
+    #projects .btn-container{
+        flex-direction:column;
+        align-items:center;
+        gap:1rem;
+    }
+    .contact-containers{
+        padding:0.5rem 1rem;
+        font-size:0.7rem;
+        flex-direction:column;
+        align-items:flex-start;
+        gap:0.7rem;
+        padding: 1.3rem 2rem;
+    }
+    #footer a{
+        font-size:1.2rem;
+    }
+    #footer p{
+        font-size:0.8rem;
+    }
+}
+@media screen and (max-width:1200px){
+    #projects .skills-containers {
+        flex-direction: column;
+      }
+}
