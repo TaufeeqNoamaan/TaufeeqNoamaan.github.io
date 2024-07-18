@@ -3,26 +3,21 @@ layout: default
 title: Home
 ---
 
-<div class="card">
-  <h2>Welcome to My Portfolio</h2>
-  <p>Hi, I'm [Your Name], a passionate developer with a love for creating beautiful and functional web applications. Explore my projects and get to know me better!</p>
-</div>
+<header>
+  <h1>STANLEY</h1>
+  <nav>
+    <a href="#">WORK</a>
+    <a href="#">ABOUT</a>
+    <a href="#">BLOG</a>
+    <a href="#">CONTACT</a>
+  </nav>
+</header>
 
-<div class="card">
-  <h2>About Me</h2>
-  <p>I'm currently studying [Your Major] at [Your University]. I enjoy working with technologies like [Tech Stack] and am constantly learning new things.</p>
-</div>
-
-<div class="card">
-  <h2>Projects</h2>
-  <ul>
-    <li><a href="#">Project 1</a>: A brief description of the project.</li>
-    <li><a href="#">Project 2</a>: A brief description of the project.</li>
-    <li><a href="#">Project 3</a>: A brief description of the project.</li>
-  </ul>
-</div>
-
-<div class="card">
-  <h2>Contact</h2>
-  <p>Feel free to reach out to me at <a href="mailto:your.email@example.com">your.email@example.com</a>.</p>
+<div class="container">
+  <div class="profile-img">
+    <!-- Your avatar image can be added here -->
+  </div>
+  <h2>Hi, I am Stanley!</h2>
+  <p>Hello everybody. I'm Stanley, a free handsome bootstrap theme coded by BlackTie.co. A really simple theme for those wanting to showcase their work with a cute & clean style.</p>
+  <p>Please, consider to register to our <a href="#">newsletter</a> to be updated with our latest themes and freebies. Like always, you can use this theme in any project freely. Share it with your friends.</p>
 </div>
