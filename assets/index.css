@@ -1,0 +1,43 @@
+
+
+@import "minima";
+
+body {
+  font-family: 'Questrial', sans-serif;
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  color: #333;
+  animation: backgroundAnimation 10s infinite alternate;
+}
+
+@keyframes backgroundAnimation {
+  from {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+  }
+  to {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Syne', sans-serif;
+}
+
+.main-content {
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
